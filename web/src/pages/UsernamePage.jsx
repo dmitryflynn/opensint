@@ -22,14 +22,14 @@ export default function UsernamePage() {
     <div>
       <div className="page-head">
         <h1>Username Search</h1>
-        <p>Check whether a handle exists across 18+ platforms. Results marked “indeterminate” usually mean the platform blocks automated requests — verify those manually.</p>
+        <p>Check whether a handle exists across 120+ platforms. Results marked “indeterminate” usually mean the platform blocks automated requests or is a JavaScript app that answers every URL — verify those manually.</p>
       </div>
 
       <div className="card">
         <LookupForm label="Username / handle" placeholder="johndoe" initial={q} loading={status === 'loading'} onSubmit={(v) => setParams({ q: v })} buttonText="Search" />
       </div>
 
-      {status === 'loading' && <Card title="Scanning platforms"><Spinner label="Checking 18+ sites…" /></Card>}
+      {status === 'loading' && <Card title="Scanning platforms"><Spinner label="Checking 120+ sites…" /></Card>}
       {status === 'error' && <ErrorBox>{error}</ErrorBox>}
       {status === 'idle' && <EmptyState icon="👤" title="Enter a username to begin" />}
 

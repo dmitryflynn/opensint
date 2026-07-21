@@ -5,7 +5,7 @@ const MODULES = [
   { to: '/domain', ico: '🌐', title: 'Domain Intelligence', desc: 'WHOIS, live DNS records, TLS certificate details and passive subdomain discovery.' },
   { to: '/ip', ico: '📡', title: 'IP Intelligence', desc: 'Geolocation, ASN & ISP, abuse reputation and exposed services for any address.' },
   { to: '/email', ico: '✉', title: 'Email Intelligence', desc: 'Gravatar profile, linked accounts and breach exposure across known leaks.' },
-  { to: '/username', ico: '👤', title: 'Username Search', desc: 'Enumerate a handle across 18+ platforms — social, dev, gaming and more.' },
+  { to: '/username', ico: '👤', title: 'Username Search', desc: 'Enumerate a handle across 120+ platforms — social, dev, gaming and more.' },
   { to: '/hash', ico: '🧬', title: 'File & Hash Analysis', desc: 'Reputation across 70+ antivirus engines by MD5 / SHA-1 / SHA-256 or upload.' },
   { to: '/password', ico: '🔑', title: 'Password Exposure', desc: 'k-anonymity check against billions of breached passwords — count only.' },
   { to: '/investigations', ico: '🕸', title: 'Investigation Boards', desc: 'Link entities into a visual graph and build a connected case picture.' },
@@ -30,7 +30,7 @@ export default function Home({ integrations }) {
           <div className="l">Intelligence modules</div>
         </div>
         <div className="stat">
-          <div className="n">18+</div>
+          <div className="n">120+</div>
           <div className="l">Username platforms</div>
         </div>
         <div className="stat good">

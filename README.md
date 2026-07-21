@@ -24,7 +24,7 @@ Professional OSINT platforms bundle a dozen lookups behind a paywall. OpenSINT i
 | **Domain intelligence** | WHOIS registration, live DNS (A/AAAA/MX/NS/TXT/CNAME/SOA/CAA), TLS certificate, passive subdomains via Certificate Transparency | ✅ |
 | **IP intelligence** | Geolocation, ASN/ISP ownership, abuse reputation, exposed ports & services | ✅ geo · 🔑 reputation/ports |
 | **Email intelligence** | Gravatar profile + linked accounts, breach exposure | ✅ gravatar · 🔑 breaches |
-| **Username search** | Enumerates a handle across 18+ platforms (social, dev, gaming, security) | ✅ |
+| **Username search** | Enumerates a handle across 120+ platforms (social, dev, gaming, security, creative, commerce) | ✅ |
 | **File & hash analysis** | Reputation across 70+ antivirus engines by MD5/SHA-1/SHA-256, or upload a file | 🔑 VirusTotal |
 | **Password exposure** | k-anonymity check against billions of breached passwords (count only) | ✅ |
 | **Investigation boards** | Pin entities from any module and link them into a saveable, shareable graph | ✅ |

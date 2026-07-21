@@ -26,7 +26,7 @@ export default function About() {
       <Card title="What runs with zero configuration">
         <p className="muted" style={{ lineHeight: 1.6, marginTop: 0 }}>
           Domain intelligence (WHOIS, DNS, TLS, subdomains via Certificate Transparency), IP geolocation, Gravatar
-          lookups, username enumeration across 18+ platforms, and password exposure (Pwned Passwords k-anonymity) all
+          lookups, username enumeration across 120+ platforms, and password exposure (Pwned Passwords k-anonymity) all
           work immediately with no API keys — they use public data sources.
         </p>
       </Card>
